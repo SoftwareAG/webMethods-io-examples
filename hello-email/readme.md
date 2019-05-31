@@ -1,6 +1,6 @@
 # Hello Email
 
-This examples guides you on a simple webmethods hello world that uses no external SaaS services, but does assume you have access to an email client. The guide shows how to setup an rest api endpoint in webmethodsio (webhook) and output an email when the api is accessed, which can be easily accomplished with a simple GET request from Curl or Postman.
+This examples guides you on a simple webmethods hello world that uses no external SaaS services, but does assume you have access to an email client. The guide shows how to setup an rest api endpoint in webmethodsio (webhook) and output an email when the api is accessed, which can be easily accomplished with a simple GET request from Curl, Postman or even your internet browser.
 
 ## Setup
 
