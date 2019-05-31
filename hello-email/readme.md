@@ -61,3 +61,7 @@ If all goes well, you will see something similiar
 Just put your url into the 'Get' dialog box and hit send. If all goes well you will see a 'Workflow enqueud successfully' response and receive an email shortly after. 
 
 ![postman](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/hello-email/postman.PNG)
+
+### Internet browser example
+
+Copy and paste the Web Methods trigger url, for example (https://<cloudname>.int-aws-us.webmethods.io/runflow/run/xxxxxxx), into your favorite internet browser will also work if Curl or Postman are not readily accessible to you.
