@@ -1,4 +1,4 @@
-Let's imagine we have an DB system on on-premise where we store the ustomer information and this information is required for 
+Let's imagine a scenario where as a system owner I operate a fleet of windmills and on these windmills there is a temperature which monitors the health of the engine. My objective is to use the temperature data to notify my service agents of any critical issues our fleet of windmills. 
 
 Case 1:In the Alarm severity=“CRITICAL”then 
 		Create ticket in freshdesk application
@@ -6,3 +6,4 @@ Case 1:In the Alarm severity=“CRITICAL”then
 		Send an email 
 Case 2(default):In the Alarm severity=not CRITICAL then
 		Send an SMS using Twilio application
+
