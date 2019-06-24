@@ -33,12 +33,12 @@ You can establish the connection in 2 ways
 
 9.  Now add the logger function to see the input and the output document to this service.![AddingLogger](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/AddingLogger.png)
 
-Under logger mapping we have logged both salesforce lead information and also the slack channel information.[LoggingMapper](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/LoggingMapper.png)
+Under logger mapping we have logged both salesforce lead information and also the slack channel information.![LoggingMapper](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/LoggingMapper.png)
 
-10. Now join the flow to end and this completes the complete workflow. This is ready for testing.[CompleteWorkflow](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/CompleteWorkflow.png)
+10. Now join the flow to end and this completes the complete workflow. This is ready for testing.![CompleteWorkflow](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/CompleteWorkflow.png)
 
-11. Test the work flow by either reating a new lead in the salesforce or by just testing the indivisual step.[TestingWorkflow](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/TestingWorkflow.png)
+11. Test the work flow by either reating a new lead in the salesforce or by just testing the indivisual step.![TestingWorkflow](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/TestingWorkflow.png)
 
-12. review the slack channel whether the lead information has been posted.[SlackChannelOutput](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/SlackChannelOutput.png)
+12. review the slack channel whether the lead information has been posted.![SlackChannelOutput](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/SlackChannelOutput.png)
 
 
