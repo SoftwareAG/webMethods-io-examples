@@ -1,7 +1,8 @@
-If you are looking to use available stuff which are already provided by the WebMethods team then you can use them.
+webMethods has a rich set of existing functionality.
 
-For ex.., if you want to use oauth of particular service which already exist but the required actions doesnt exist then you can use the oauth with following schema
+For example, if you would like to use oauth of particular service which already exist but the required actions doesnt exist then you can use the oauth with following schema
 
+```
 "accessToken": {
                 "title": "Authorize Dropbox",
                 "type": "string",
@@ -9,11 +10,14 @@ For ex.., if you want to use oauth of particular service which already exist but
                 "minLength": 1,
                 "propertyOrder": 1
  },
+```
 
  You have to provide the oauth name in the oauth Key. you can contact webmethod team to get the oauth list(names).
 
 
  Similarly you can also use lookup just you have to get the service name and ID of the lookup. Sample schema for lookup
+
+```
     "path": {
                 "type": "string",
                 "title": " Folder Path",
@@ -31,3 +35,4 @@ For ex.., if you want to use oauth of particular service which already exist but
                     ]
                 }
             },
+```
