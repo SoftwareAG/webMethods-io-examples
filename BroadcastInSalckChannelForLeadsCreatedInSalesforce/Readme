@@ -1,3 +1,0 @@
-This workflow is triggered as soon as the new lead is created in the salesforce.
-The message will be broadcasted in slack channel so that people is aware of the activities
-The new lead is also logged in the workflow.
