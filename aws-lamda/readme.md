@@ -1,6 +1,6 @@
-# Invoke  AWS Lamda function
+# Invoke  AWS Lambda function
 
-This example shows how easy it is,  to call AWS Lambda function from webMethods.io and expose it as a rest resource inside webMethods.io. The response involves status code showing the success or failure of Lamda invocation
+This example shows how easy it is,  to call AWS Lambda function from webMethods.io and expose it as a rest resource inside webMethods.io. The response involves status code showing the success or failure of Lambda invocation
 
 ## Prerequisite
 
@@ -32,7 +32,7 @@ The AWS Lambda function needs to written and configured in AWS. You must also ha
 
 11.Configure the "Return Data on Sync Webhook" service by clicking on the gear icon on the service step, give it a name and click next
 
-12. In this page map the response status code from Lamda function to Response data of the "Return Data on Sync Webhook" service. ![returnwebhookmapped](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/return_webhook_mapped.png)
+12. In this page map the response status code from Lambda function to Response data of the "Return Data on Sync Webhook" service. ![returnwebhookmapped](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/return_webhook_mapped.png)
 
 13. The flow is now ready to test as a Rest API from an external tool like Postman. Please make sure to grab the exposed Rest URL from the Webhook URL field in the first flow step(webhook) and use it as the Rest API URL. ![restcall](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/rest.png)
 
