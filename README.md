@@ -5,6 +5,7 @@ Collection of examples for beginner Webmethods-io developers. It consists of com
 
 1. [Hello Email](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/hello-email)
 2. [Pagerduty-Slack](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/pager-slack)
+3. [AWS-Lambda](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/aws-lamda)
 ______________________
 These tools are provided as-is and without warranty or support. They do not constitute part of the Software AG product suite. Users are free to use, fork and modify them, subject to the license agreement. While Software AG welcomes contributions, we cannot guarantee to include every contribution in the master project.	
 
