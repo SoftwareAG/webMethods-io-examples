@@ -11,7 +11,7 @@ You should have access to the salesforce and slack SaaS application.
 
 2. The trigger is beeing added by modifying the start button, which is the entry point to the new workflow. lease select the gear on top of the start icon to access settings. Once settings is selected in the start icon, a 'trigger' dialog will appear that allows Salesforce trigger to be selected. ![trigger](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/SalesforcePollingTrigger.png)
 
-3.  Now login to Salesforce on the same browser so that the webmethods.io automatically create the connection with salesforce.  ![SalesforceLogin]()
+3.  Now login to Salesforce on the same browser so that the webmethods.io automatically create the connection with salesforce.  ![SalesforceLogin](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/SalesforceLogin.png)
 
 4.  Then try to create the new connection on the Salesforce new trigger which we added. Automatically the login details are picked up by salesforce and a connection is established to salesforce. If reqired you can edit the connection name created![PollingTrigger](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/SalesforcePollingTrigger.png)
 
@@ -26,8 +26,8 @@ Once you drag and drop any service, automatically it connects the salesforce tri
 You can establish the connection in 2 ways
 
   a)  You can login to slack on the same browser and select the default authorization so that webMethods.ip generates the keys for you.
-  
   b)  You can manually enter the keys by secting the other option.
+  ![SlackAuthentication](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/SlackAuthentication.png)
   
 8.  After the connection click next to do the mapping. Map the relevent data required to send to slack channel. Once mapping is done then click on save.![SalesforceLeadToSlackMapping](https://github.com/maam1/webmethodsio-examples/blob/master/BroadcastInSalckChannelForLeadsCreatedInSalesforce/SalesforceLeadToSlackMapping.png)
 
