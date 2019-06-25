@@ -8,7 +8,7 @@ Have some XML data handy to convert to Json
 
 ## Setup
 
-1. Go ahead and get started creating a blank workflow. If you need a refresher on how to get to this point, this [guide](https://docs.webmethods.io/workflow-building-blocks/creating-first-workflow) can be a great introduction. Your starting point should resemble ![CreateWorkFlow](https://github.com/maam1/webmethodsio-examples/blob/master/ConvertData%20xml-json/CreateWorkflow.PNG)
+1. Go ahead and get started creating a blank workflow. If you need a refresher on how to get to this point, this [guide](https://docs.webmethods.io/workflow-building-blocks/creating-first-workflow) can be a great introduction. Your starting point should resemble ![CreateWorkFlow](https://github.com/maam1/webmethodsio-examples/blob/master/ConvertData%20xml-json/CompleteFlow.PNG)
 
 2. In the search dialog lookup "xml to json" service and select "XML to JSON" service, drag and drop it into the flow canvas. ![XML to JSON]() Connect the arrows from start to the webhook icon and then to the XML to JSON service icon. This inserts the 'XML to JSON' step in the flow. Hardcode the XML data which need to be converted to JSON.
 
