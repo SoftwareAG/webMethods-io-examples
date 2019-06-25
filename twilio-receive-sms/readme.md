@@ -1,10 +1,10 @@
-# Invoke  AWS Lambda function
+# Receive Message From Twilio
 
-This example shows how easy it is,  to call AWS Lambda function from webMethods.io and expose it as a rest resource inside webMethods.io. The response involves status code showing the success or failure of Lambda invocation
+This example shows how easy it is,  to receive Incoming SMS visa Twilio using webMethods.io and send it as email to other interested parties. This functionality can be used for receiving alerts, status via SMS and updating other IT systems. It can be used for Lead generation, creating tickets in ServiceNow etc.
 
 ## Prerequisite
 
-The AWS Lambda function needs to written and configured in AWS. You must also have AWS access id and secret access key for the AWS account, which you plan to use, to call AWS Lambda.
+Twilio account with at least one phone numver to receive and send SMS.
 
 
 ## Setup
