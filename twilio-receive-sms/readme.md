@@ -1,17 +1,17 @@
 # Receive Message From Twilio
 
-This example shows how easy it is,  to receive Incoming SMS visa Twilio using webMethods.io and send it as email to other interested parties. This functionality can be used for receiving alerts, status via SMS and updating other IT systems. It can be used for Lead generation, creating tickets in ServiceNow etc.
+This example shows how easy it is,  to receive SMS from Twilio using webMethods.io and send it as email to other interested parties. This functionality can be used for receiving alerts, status via SMS and updating other IT systems. It can be used for Lead generation, creating tickets in ServiceNow etc.
 
 ## Prerequisite
 
-Twilio account with at least one phone numver to receive and send SMS.
+Twilio account with at least one phone number to receive and send SMS. Account SID and Auth Token from Twilio Account Dashboard.
 
 
 ## Setup
 
-1. Go ahead and get started creating a blank workflow. If you need a refresher on how to get to this point, this [guide](https://docs.webmethods.io/workflow-building-blocks/creating-first-workflow) can be a great introduction. Your starting point should resemble ![this](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/Creating_First_Workflow.png)
+1. Go ahead and get started creating a blank workflow. If you need a refresher on how to get to this point, this [guide](https://docs.webmethods.io/workflow-building-blocks/creating-first-workflow) can be a great introduction. Your starting point should resemble ![this](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-receive-sms/Creating_First_Workflow.png)
 
-2. The Webhook is created by modifying the start icon, which is is the entrypoint to the new flow. Please select the gear on top of the start icon to access settings. Once settings is selected in the start icon, a 'trigger' dialog will appear that allows Webhook to be selected.![trigger](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/trigger.png) 
+2. Trigger is created by modifying the start icon, which is is the entrypoint to the new flow. Please select the gear on top of the start icon to access settings. Once settings is selected in the start icon, a 'trigger' dialog will appear that allows Twilio to be selected as Trigger.![trigger](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-receive-sms/trigger.png) 
 
 3. Leave Webhook Authentication unchecked. Check/Enable Webhook Payload, add the structure of the input payload into the "Body" text area and click next. Note the webhook url and save this for later. As a best practice, Authentication should be added immedately after flow ("Call AWS Lambda Directly") is working ![webhook](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/webhook.png)  ![webhookpayload](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/webhook_payload.png) 
 
