@@ -1,5 +1,5 @@
 # webmethodsio-examples
-Collection of examples for beginner Webmethods-io developers. It consists of common use cases and starting points for developers getting up to speed with Webmethods.io. Each example will contain instructions on how to recreate itself from a blank project. 
+Collection of examples for beginner webMethods-io developers. It consists of common use cases and starting points for developers getting up to speed with webMethods.io. Each example will contain instructions on how to recreate itself from a blank project. 
 
 ## Introduction
 
