@@ -22,13 +22,13 @@ https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk
 
 6.  Add the fresh desk connection details to create the connection to freshdesk.![FreshDeskConnection](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/FreshDeskConnection.PNG)
 
-7. Now map the required data from cumulocity alarm to freshdesk ticket. Dont foget to map the required fields.![Mapping](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/Mapping.PNG)
+7. Now map the required data from cumulocity alarm to freshdesk ticket. Do not forget to map the required fields.![Mapping](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/Mapping.PNG)
 
 8.  We have a cool feature which is logging where you can log the necessary unique data so that you can visualize the data in monitoring workflows. Search for logging and drag and drop the logging service to canvas.![AddLogger](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/AddLogger.PNG)
 
-9.  Map the required fields in the logging. In the below exmaple we have mapped the complete cumulocity alarm information.![AddLogger](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/LoggerMapping.PNG)
+9.  Map the required fields in the logging. In the below example we have mapped the complete cumulocity alarm information.![AddLogger](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/LoggerMapping.PNG)
 
-10. This completes the workflow and connect to stop step. We can add the global error handler for the complete workflow. If any error happens in the workflow is catched by the global error handler.![AddGlobalErrorHandler](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/AddGlobalErrorHandler.PNG)
+10. This completes the workflow and connect to stop step. We can add the global error handler for the complete workflow. If any error happens in the workflow is catch the error by the global error handler.![AddGlobalErrorHandler](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/AddGlobalErrorHandler.PNG)
 
 11. If any error happens we  create one more ticket in the freshdesk so that necessary actions can be taken. Do the mapping for freahdesk ticket.![GlobalErrorHandlerMapping](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/GlobalErrorHandlerMapping.PNG)
 
@@ -37,4 +37,4 @@ https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk
 13. We can test the success scenario by creating the cumulocity alarm for the device added. ![SuccessTesting](
 https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/SuccessTesting.PNG)
 
-14. We can test the negative scenario by not passing the required foeld while creating the freshdesh ticket. This scenario will invoke the global error handler.![SuccessTesting](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/ErrorTesting.PNG)
+14. We can test the negative scenario by not passing the required field while creating the freshdesh ticket. This scenario will invoke the global error handler.![SuccessTesting](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/ErrorTesting.PNG)
