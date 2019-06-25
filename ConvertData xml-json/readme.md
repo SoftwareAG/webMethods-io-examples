@@ -16,11 +16,11 @@ Have some XML data handy to convert to Json
 
 4. We can configure send email if the converted data need to be sent over email to the respected audience. In the search dialog lookup "send an email" service and select "Send an Email" service, drag and drop it into the flow canvas. ![SendEmail](https://github.com/maam1/webmethodsio-examples/blob/master/ConvertData%20xml-json/SendEmail.PNG)
 
-5.Under Send an Email configuere the to address, cc, subject and map the body to Json data. ![SendEmailMapping](https://github.com/maam1/webmethodsio-examples/blob/master/ConvertData%20xml-json/SendEmailMapping.PNG)
+5.Under Send an Email configuere the to address, cc, subject and map the body to Json data. ![SendEmailMapping](https://github.com/maam1/webmethodsio-examples/master/ConvertData%20xml-json/SendEmailMapping.PNG)
 
-6.Your complete flow should looks like this.![CompleteFlow](https://github.com/maam1/webmethodsio-examples/blob/master/ConvertData%20xml-json/CompleteFlow.PNG)
+6.Your complete flow should looks like this.![CompleteFlow](https://github.com/maam1/webmethodsio-examples/master/ConvertData%20xml-json/CompleteFlow.PNG)
 
-6. Now test the flow by clicking on Test button. We can view the result in Action tab.![Testing](https://github.com/maam1/webmethodsio-examples/blob/master/ConvertData%20xml-json/Testing.PNG)
+6. Now test the flow by clicking on Test button. We can view the result in Action tab.![Testing](https://github.com/maam1/webmethodsio-examples/master/ConvertData%20xml-json/Testing.PNG)
 
 
 
