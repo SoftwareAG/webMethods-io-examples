@@ -13,25 +13,24 @@ Twilio account with at least one phone number to receive and send SMS. Account S
 
 2. Trigger is created by modifying the start icon, which is is the entrypoint to the new flow. Please select the gear on top of the start icon to access settings. Once settings is selected in the start icon, a 'trigger' dialog will appear that allows Twilio to be selected as Trigger.![trigger](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-receive-sms/trigger.png) 
 
-3. Leave Webhook Authentication unchecked. Check/Enable Webhook Payload, add the structure of the input payload into the "Body" text area and click next. Note the webhook url and save this for later. As a best practice, Authentication should be added immedately after flow ("Call AWS Lambda Directly") is working ![webhook](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/webhook.png)  ![webhookpayload](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/webhook_payload.png) 
+3. Leave Trigger Label Unchanged. Choose "New Message Delivered" Option in Select Trigger Dropdown. 
+![Trigger](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-receive-sms/twilio.png)
 
-4. Select done once presented with the final dialog. You should now see the start arrow dialog replaced with a webhook icon. ![webhookconfigured](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/webhookconfigured.png)
+Twilio Trigger offers two different options for Messsage and Calls. Different option can be selected depending on integration requirement.
+![Twilio Trigger Option](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-receive-sms/twilio-diff-options.png)
+
+In Connect To Twilio, Select if there is any existing Twilio Account available or click on + button to add a new one.   ![Twilio Authorization](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-receive-sms/twilio-auth.png) 
+
+4. Select done once presented with the final dialog. You should now see the start arrow dialog replaced with the Twilio icon. 
 
 
-5. Now the flow is ready to process, once the webhook receives the request. In the search dialog lookup "Amazon" service and select "Amazon Web Services" service, drag and drop it into the flow canvas. ![awsservice](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/aws_service.png) Connect the arrows from start to the email icon and then to the end icon. This inserts the 'Amazon web services' step in the flow. 
+5. Now the flow is ready to process, once the Trigger receives the request. In the search dialog lookup "Email" service and select "Send an Email" service under Notification, drag and drop it into the flow canvas. ![Email Step](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-receive-sms/email-canvas.PNG)
 
-6. Connect the start step to 'Amazon web services' step. Also connect from 'Amazon webservices' to the stop step. ![invokeawsservice](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/invoke_aws_service.png)
+6. Connect the arrows from Twilio Trigger to the email icon and then to the end icon. This inserts the 'Send an Email' step in the flow. 
 
-7. Configure the "Amazon webservices" step by clicking the gear icon in the step. Select action as "Lambda Invoke function". Give it a name (ie the step name) as "Lambda Invoke Function". Optional, Please take a look at all the actions supported by the service, which includes calling "Execute Lambda Function via API Gateway". Click + icon next to "Connect to Amazon Webservices" drop down and configure the account credentials to connect to AWS instance. ![awsconnectionconfig](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/aws_connection_config.png). Note - if you had already configured the AWS credentials, just reuse it by selecting from "Connect to Amazon Webservices" drop down.
+7. Configure the "Send an Email" step by clicking the gear icon in the step. Fill in To\CC for email, Drag an drop fields needed from Twilio trigger (left hand side) to email fields on right hand side. ![Email Mapping](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-receive-sms/email-map.PNG).
 
-8. Configure the AWS credentials. You will use AWS access key ID and access key to connect to AWS instance in this screen. ![awsserviceaccountinfo](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/aws_service_account_info.png) Click Add to close the window and go back to  configure "Amazon websservices "Lambda Invoke function" window. Click "Next" 
 
-9. In the Mapping screen, add the AWS Region for the function, provide exact name of the Lambda function you would like to call in AWS and  input data to functions arguments. ![awsservicemapping](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/aws_service_mapping.png) Click Next and complete the form. The resulting flow will look like as below. ![finalflow](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/final_flow.png)The flow is now ready for testng in the webMethods.io UI
+8. Click Next and complete the form. The resulting flow will look like as below. ![finalflow](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-receive-sms/Complete-Integration.PNG)The flow is now ready for testng in the webMethods.io UI
 
-10. To make this a flow a useful Rest API, you need to return a response. This can be performed by adding a "Return Data on Sync Webhook" service step. In order to do this, in the search dialog lookup "Return" service and select  "Return Data on Sync Webhook" service, drag and drop into the flow canvas. ![returnresponse](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/return_webhook.png) The resulting flow will look like as below ![returnresponselinked](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/return_webhook_linked.png) 
-
-11.Configure the "Return Data on Sync Webhook" service by clicking on the gear icon on the service step, give it a name and click next
-
-12. In this page map the response status code from Lambda function to Response data of the "Return Data on Sync Webhook" service. ![returnwebhookmapped](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/return_webhook_mapped.png)
-
-13. The flow is now ready to test as a Rest API from an external tool like Postman. Please make sure to grab the exposed Rest URL from the Webhook URL field in the first flow step(webhook) and use it as the Rest API URL. ![restcall](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/rest.png)
+9. The flow is now ready to test. Send an SMS from your twilio phone number or Click Test in webMethods.io workflow UI. an email resembling below will be received. ![Email Received](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-receive-sms/email-received.PNG)
