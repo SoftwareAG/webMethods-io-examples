@@ -12,7 +12,7 @@ Get the files uploaded to dropbox SaaS application
 
 2.  Add the dropbox service in the canvas by drag and drop feature. This automatically connects with the start of the step![AddDropBox](https://github.com/maam1/webmethodsio-examples/blob/master/dropbox-sendemail/adddropbox.PNG)
 
-3.  Click on the small settings icon on the Dropbox service to add the action "Download File". ![DropboxAction](https://github.com/maam1/webmethodsio-examples/blob/master/dropbox-sendemail/bropboxaction.PNG)
+3.  Click on the small settings icon on the Dropbox service to add the action "Download File". ![DropboxAction](https://github.com/maam1/webmethodsio-examples/blob/master/dropbox-sendemail/dropboxaction.PNG)
 
 4.  Add the Dropbox connection details to create the connection to dropbox. We can use the automatic default feature to connect where the webmethods.io picks up the connection details from browser cookies. You just need to sign into dropbox on the browser and webmethods.io does everything behind the scene![dropboxconnection](https://github.com/maam1/webmethodsio-examples/blob/master/dropbox-sendemail/dropboxconnection.PNG)
 ![DropboxConnection_Success](https://github.com/maam1/webmethodsio-examples/blob/master/dropbox-sendemail/dropboxconnectionsuccess.PNG)
