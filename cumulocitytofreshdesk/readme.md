@@ -9,7 +9,7 @@ We should have a FreshDesk access to create the tickets
 
 ## Setup
 
-1. Go ahead and get started creating a blank workflow. If you need a refresher on how to get to this point, this [guide](https://docs.webmethods.io/workflow-building-blocks/creating-first-workflow) can be a great introduction. Your starting point should resemble ![CreateWorkFlow](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/createnewworkflow.PNG)
+1. Go ahead and get started creating a blank workflow. If you need a refresher on how to get to this point, this [guide](https://docs.webmethods.io/workflow-building-blocks/creating-first-workflow) can be a great introduction. Your starting point should resemble ![CreateWorkFlow](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/createworkflow.PNG)
 
 2.  Add the cumulocity trigger by editing the start button and selecting the cumulocity trigger from the search result.![CumulocityTrigger](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/cumulocitytrigger.PNG)
 
