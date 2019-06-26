@@ -32,7 +32,7 @@ https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk
 
 11. If any error happens we  create one more ticket in the freshdesk so that necessary actions can be taken. Do the mapping for freahdesk ticket.![GlobalErrorHandlerMapping](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/globalerrorhandlermapping.PNG)
 
-12. This is the complete workflow looks like. ![GlobalErrorHandlerMapping](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/completeworkflow.PNG) 
+12. This is the complete workflow looks like. ![completeworkflow](https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/completeworkflow.PNG) 
 
 13. We can test the success scenario by creating the cumulocity alarm for the device added. ![SuccessTesting](
 https://github.com/maam1/webmethodsio-examples/blob/master/cumulocitytofreshdesk/successtesting.PNG)
