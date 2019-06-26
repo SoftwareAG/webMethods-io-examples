@@ -27,7 +27,8 @@ Twilio account with at least one phone number to receive and send SMS. Account S
 
 7. Configure the "Twilio" step by clicking the gear icon in the step. Select action as "Send and SMS". Give it a name (ie the step name) as "Send an SMS". Click + icon next to "Connect to Twilio" drop down and configure the account credentials to connect to Twilio instance. ![TwilioAction](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-send-sms/twilio-action-configure.PNG). Note - if you had already configured the Twilio credentials, just reuse it by selecting from "Connect to Twilio" drop down.
 
-8. Configure the Twilio credentials. You will use Twilio Account SID and AUTH Token to connect to Twilio in this screen. ![TwilioAuth](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-send-sms/twilio-auth.png) Click Add to close the window and go back to  configure "Twilio "Send an SMS" window. Click "Next" 
+8. Configure the Twilio credentials. You will use Twilio Account SID and AUTH Token to connect to Twilio in this screen. ![TwilioAuth](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-send-sms/twilio-auth.png)
+Click Add to close the window and go back to  configure "Twilio "Send an SMS" window. Click "Next" 
 
 9. In the Mapping screen, add the to, from, body from webhook json input. ![TwilioMap](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-send-sms/twilio-map.PNG) Click Next and complete the form. The resulting flow will look like as below. ![Twiliofinal](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-send-sms/twilio-final-complete.PNG)The flow is now ready for testng in the webMethods.io UI
 
