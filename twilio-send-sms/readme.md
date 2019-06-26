@@ -46,5 +46,5 @@ The resulting flow will look like as below ![returnresponselinked](https://githu
 
 ## Complete Solution
 Zip file and json file of complete solution can be downloaded from below links.
-![Zip](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-send-sms/send-sms-using-twilio.zip)
-![JSON](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-send-sms/send-sms-using-twilio.json)
+[Zip](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-send-sms/send-sms-using-twilio.zip)
+[JSON](https://github.com/mangatrai/webmethodsio-examples/blob/master/twilio-send-sms/send-sms-using-twilio.json)
