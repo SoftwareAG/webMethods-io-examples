@@ -13,6 +13,7 @@ Collection of examples for beginner webMethods-io developers. It consists of com
 8. [SalesForceLeads-Slack](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/salesforceleads-slack)
 9. [Github-Slack](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/github-slack)
 10. [Cumulocity-Freshdesk](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/cumulocitytofreshdesk)
+11. [Dropbox-Sendemail](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/dropbox-sendemail)
 ______________________
 These tools are provided as-is and without warranty or support. They do not constitute part of the Software AG product suite. Users are free to use, fork and modify them, subject to the license agreement. While Software AG welcomes contributions, we cannot guarantee to include every contribution in the master project.
 
