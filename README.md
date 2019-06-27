@@ -11,6 +11,7 @@ Collection of examples for beginner webMethods-io developers. It consists of com
 6. [Convert-XML-JSON](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/convertdata-xml-json)
 7. [SalesForceLeads-Slack](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/salesforceleads-slack)
 8. [Github-Slack](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/github-slack)
+9. [Cumulocity-Freshdesk](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/cumulocitytofreshdesk)
 ______________________
 These tools are provided as-is and without warranty or support. They do not constitute part of the Software AG product suite. Users are free to use, fork and modify them, subject to the license agreement. While Software AG welcomes contributions, we cannot guarantee to include every contribution in the master project.
 
