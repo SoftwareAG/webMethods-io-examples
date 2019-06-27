@@ -7,11 +7,12 @@ Collection of examples for beginner webMethods-io developers. It consists of com
 2. [Pagerduty-Slack](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/pager-slack)
 3. [AWS-Lambda](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/aws-lambda)
 4. [Twilio-Receive-SMS](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/twilio-receive-sms)
-5. [Cumulocity-S3](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/cumulocity-s3)
-6. [Convert-XML-JSON](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/convertdata-xml-json)
-7. [SalesForceLeads-Slack](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/salesforceleads-slack)
-8. [Github-Slack](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/github-slack)
-9. [Cumulocity-Freshdesk](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/cumulocitytofreshdesk)
+5. [Twilio-Send-SMS](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/twilio-send-sms)
+6. [Cumulocity-S3](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/cumulocity-s3)
+7. [Convert-XML-JSON](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/convertdata-xml-json)
+8. [SalesForceLeads-Slack](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/salesforceleads-slack)
+9. [Github-Slack](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/github-slack)
+10. [Cumulocity-Freshdesk](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/cumulocitytofreshdesk)
 ______________________
 These tools are provided as-is and without warranty or support. They do not constitute part of the Software AG product suite. Users are free to use, fork and modify them, subject to the license agreement. While Software AG welcomes contributions, we cannot guarantee to include every contribution in the master project.
 
