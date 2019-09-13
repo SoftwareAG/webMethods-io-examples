@@ -8,7 +8,7 @@ II. Cumulocity account with at least 1 registered IoT device
   
 ## Set Up
 
-1. Lets start by creating a new workflow from scartch, you should now see a workflow canvas shown below.
+1. Lets start by creating a new workflow from scratch, you should now see a workflow canvas shown below.
 
 <img width="500" alt="canvas" src="https://user-images.githubusercontent.com/52167245/60108670-01297380-9737-11e9-8d4d-4a9fbf3459f9.PNG">
 
