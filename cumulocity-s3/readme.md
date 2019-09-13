@@ -1,5 +1,5 @@
 # Cumulocity > WebMethods > AWS S3
-In this example we weill send IoT logs from webMethods to AWS S3
+In this example we will send IoT logs from webMethods to AWS S3
 
 ## Prerequisites
 I. AWS instance running with an available S3 bucket, Access Key and Secret Key will be required when registering Access to your AWS enviroment
