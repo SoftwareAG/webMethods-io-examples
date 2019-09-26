@@ -10,7 +10,7 @@ This examples guides you on a simple webmethods hello world that uses no externa
 
 3. Leave Webhook Authentication and Webhook Payload unchecked for now and hit next. Feel free to modify these if desired, they are easy to return to and iterate as well. At the very least, Authentication should be added immedately after 'Hello world' is working. Note the webhook url and save this for later. ![webhook](https://github.com/SoftwareAG/webmethodsio-examples/blob/master/hello-email/webhook.jpg)
 
-(Optional) You can curl the webhook url at this point as a type of preliminary test. The url will state that it exists but will return an error message as the entire flow has not been completed and saved yet.
+(Optional) You can curl the webhook url at this point as a type of preliminary test. The url will state that it exists but will return an error message as the entire flow has not been completed and saved yet. Alternatively, you can put the url in your internet browser for quick feedback if you prefer. 
 
 ```bash
 curl https://<cloudname>.int-aws-us.webmethods.io/runflow/run/xxxxxxx 
