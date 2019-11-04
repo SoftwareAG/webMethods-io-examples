@@ -9,10 +9,12 @@ To import the provided example as recipe into your system, follow the steps:
 ![Import recipe](./resources/import_recipe_1.png)
 
 In the opening popup, select the provided "MySQL-ChunkAndInsert.zip" and click on "Open". After this, you should be able to see the recipe like:
+
 ![My recipes](./resources/import_recipe_2.png)
 
 ## Create a custom NodeJS connector
 One of the steps in the workflow is done using a custom NodeJS connector. To create it in your environment, open a workflow, expand the connectors palette and select the "Custom" connectors. After that, click on the "+" icon to create it.
+
 ![My recipes](./resources/create_custom_nodejs_connector_1.png)
 
 In the opening window, paste the content of the provided file "[Prepare Multiple Insert MySQL](./custom_nodejs/prepare-multiple-insert-mysql.js)". Here's an snippet of what it does.
@@ -52,7 +54,6 @@ module.exports = function () {
             }
         }
     }
-
 }
 
 ```
