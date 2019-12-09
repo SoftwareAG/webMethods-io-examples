@@ -16,7 +16,7 @@ Collection of examples for beginner webMethods-io developers. It consists of com
 11. [Convert-XML-JSON](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/convertdata-xml-json)
 12. [Dropbox-Sendemail](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/dropbox-sendemail)
 13. [MySQL-Insert](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/mysql-multi-insert)
-14. [Tasksynch] (https://github.com/SoftwareAG/webmethodsio-examples/tree/master/wmio-tasksynch]
+14. [Tasksynch](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/wmio-tasksynch)
 
 ______________________
 For more information you can Ask a Question in the [TECHcommunity Forums](http://tech.forums.softwareag.com/techjforum/forums/list.page?product=integration-cloud).
