@@ -112,7 +112,7 @@ Note that the actions are actually performed, so you will find a new task in Wun
 the “Inbox” there. Note that sometimes you have to refresh (F5) in order to see updates in the
 applications.
 
-![P1](file://images/Image013.png)
+![P1](./images/Image013.png)
 
 ### Adding notifications
 
