@@ -17,6 +17,7 @@ Collection of examples for beginner webMethods-io developers. It consists of com
 12. [Dropbox-Sendemail](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/dropbox-sendemail)
 13. [MySQL-Insert](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/mysql-multi-insert)
 14. [Tasksynch](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/wmio-tasksynch)
+15. [Agile Apps Connector](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/agileapps-connector)
 
 ______________________
 For more information you can Ask a Question in the [TECHcommunity Forums](http://tech.forums.softwareag.com/techjforum/forums/list.page?product=integration-cloud).
