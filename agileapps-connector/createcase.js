@@ -1,6 +1,6 @@
 /*
-* Copyright © 2010 - 2013 Apama Ltd.
-* Copyright © 2013 - 2016 Software AG, Darmstadt, Germany and/or its licensors
+* Copyright ï¿½ 2010 - 2013 Apama Ltd.
+* Copyright ï¿½ 2013 - 2016 Software AG, Darmstadt, Germany and/or its licensors
 *
 * SPDX-License-Identifier: Apache-2.0
 *
@@ -84,7 +84,7 @@ module.exports = {
 
     
     request.post({
-        url: "https://public.agileappscloud.eu/networking/rest/login",
+        url: "https://<your tenant>.agileappscloud.eu/networking/rest/login",
         port:443,
         method:"POST",
         headers:{
@@ -108,7 +108,7 @@ module.exports = {
       addrecordxml = addrecordxml + "</record></platform>";
  
       request.post({
-        url: "https://public.agileappscloud.eu/networking/rest/record/" + input.caseobject,
+        url: "https://<your tenant>.agileappscloud.eu/networking/rest/record/" + input.caseobject,
         port: 443,
         method: "POST",
         headers: {
