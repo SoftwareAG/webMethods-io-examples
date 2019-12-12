@@ -1,38 +1,79 @@
-# Invoke  AWS Lambda function
+# webMethods.io Integration Connector for AgileApps
 
-This example shows how easy it is,  to call AWS Lambda function from webMethods.io and expose it as a rest resource inside webMethods.io. The response involves status code showing the success or failure of Lambda invocation
+This example shows how to create a generic webmethods.io connector to create data records in AgileApps. The AgileApps Cloud platform is a business process and application platform that lets you create process-driven, situational, case management applications in a very short time.  
 
 ## Prerequisite
 
-The AWS Lambda function needs to written and configured in AWS. You must also have AWS access id and secret access key for the AWS account, which you plan to use, to call AWS Lambda.
+1. To test the AgileApps Connector you should have a AgileApps tenant. You can request a 30-days free-trial on https://www.softwareag.cloud/site/product/webmethods-agile-apps.html#/
+
+2. NVM v8.14.0
+
+3. wM.io Connector Builder CL (by running the command "npm i @webmethodsio/wmiocli -g") 
+
 
 
 ## Setup
 
-1. Go ahead and get started creating a blank workflow. If you need a refresher on how to get to this point, this [guide](https://docs.webmethods.io/workflow-building-blocks/creating-first-workflow) can be a great introduction. Your starting point should resemble ![this](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/Creating_First_Workflow.png)
+1. Before you can start with the webMethods.io Connector Builder, you must first 
 
-2. The Webhook is created by modifying the start icon, which is is the entrypoint to the new flow. Please select the gear on top of the start icon to access settings. Once settings is selected in the start icon, a 'trigger' dialog will appear that allows Webhook to be selected.![trigger](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/trigger.png) 
+    • Switch to Node.js v8.14.0
 
-3. Leave Webhook Authentication unchecked. Check/Enable Webhook Payload, add the structure of the input payload into the "Body" text area and click next. Note the webhook url and save this for later. As a best practice, Authentication should be added immedately after flow ("Call AWS Lambda Directly") is working ![webhook](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/webhook.png)  ![webhookpayload](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/webhook_payload.png) 
+    • Make sure that Connector Builder is installed globally under Node.js v8.14.0
 
-4. Select done once presented with the final dialog. You should now see the start arrow dialog replaced with a webhook icon. ![webhookconfigured](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/webhookconfigured.png)
+    • Login to the webMethods.io Integration tenant
+
+2. Establish connection to your tenant from the connector builder.
+    • You need your "Developer key" on your webMethods.io tenant - You find it on your avatar/Settings.
+    • In your visual code terminal do
+
+    > nvm use 8.14.0
+
+    > wmio -v
+
+    > wmio login #Enter the required parameters like your tenant, email and developer key. 
+
+    > wmio init #Enter the name of your connector
+
+3. Install all needed libraries for your new connector app. To do so, run the following command in the Terminal view:
+    > npm install
+
+4. Create a new Action named "createcase" by running the following command 
+    > wmio create action createcase
+
+5. Implement the "createcase" action using the createcase.js sample
+
+    • You find the new action "createcase" in /action/v1
+
+    • Replace the source with the createcase.js file of this sample
+
+6. Deploy the connector to your webMethods.io tenant
+
+    • In your Terminal view enter the following command:
+    > wmio deploy
 
 
-5. Now the flow is ready to process, once the webhook receives the request. In the search dialog lookup "Amazon" service and select "Amazon Web Services" service, drag and drop it into the flow canvas. ![awsservice](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/aws_service.png) Connect the arrows from start to the email icon and then to the end icon. This inserts the 'Amazon web services' step in the flow. 
+## Test your new "createcase" connector
 
-6. Connect the start step to 'Amazon web services' step. Also connect from 'Amazon webservices' to the stop step. ![invokeawsservice](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/invoke_aws_service.png)
+1. In a browser, log into your tenant and open webMethods.io integration
 
-7. Configure the "Amazon webservices" step by clicking the gear icon in the step. Select action as "Lambda Invoke function". Give it a name (ie the step name) as "Lambda Invoke Function". Optional, Please take a look at all the actions supported by the service, which includes calling "Execute Lambda Function via API Gateway". Click + icon next to "Connect to Amazon Webservices" drop down and configure the account credentials to connect to AWS instance. ![awsconnectionconfig](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/aws_connection_config.png). Note - if you had already configured the AWS credentials, just reuse it by selecting from "Connect to Amazon Webservices" drop down.
+2. Open a project 
 
-8. Configure the AWS credentials. You will use AWS access key ID and access key to connect to AWS instance in this screen. ![awsserviceaccountinfo](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/aws_service_account_info.png) Click Add to close the window and go back to  configure "Amazon websservices "Lambda Invoke function" window. Click "Next" 
+3. Create a new workflow
 
-9. In the Mapping screen, add the AWS Region for the function, provide exact name of the Lambda function you would like to call in AWS and  input data to functions arguments. ![awsservicemapping](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/aws_service_mapping.png) Click Next and complete the form. The resulting flow will look like as below. ![finalflow](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/final_flow.png)The flow is now ready for testng in the webMethods.io UI
+4. Find the new created connector in the Connectors Panel by entering the name in the search field
 
-10. To make this a flow a useful Rest API, you need to return a response. This can be performed by adding a "Return Data on Sync Webhook" service step. In order to do this, in the search dialog lookup "Return" service and select  "Return Data on Sync Webhook" service, drag and drop into the flow canvas. ![returnresponse](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/return_webhook.png) The resulting flow will look like as below ![returnresponselinked](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/return_webhook_linked.png) 
+5. Drag the new Connector to your canvas and connect it with the start and end nodes.
 
-11.Configure the "Return Data on Sync Webhook" service by clicking on the gear icon on the service step, give it a name and click next
+6. Open the action settings by clicking on the gear icon of the action node. On the first step, an account for the connector must be configured. Click on the "+" icon to do so. Entwer your userame and password of the agileapps tenant. Click "next"
 
-12. In this page map the response status code from Lambda function to Response data of the "Return Data on Sync Webhook" service. ![returnwebhookmapped](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/return_webhook_mapped.png)
+7. Provide the input values for the action
 
-13. The flow is now ready to test as a Rest API from an external tool like Postman. Please make sure to grab the exposed Rest URL from the Webhook URL field in the first flow step(webhook) and use it as the Rest API URL. ![restcall](https://github.com/flyondeals/webmethodsio-examples/blob/master/aws-lamda/rest.png)
+    • Set the "object" name to name of the agileapps object on which you would like to add a new record.
+
+    • Add one or more attributes to the object by adding key-value-pairs to the object. The "key" has to be one of the field-name of the agileapps object. When you are done click "next".
+
+8. In the last step of the action configuration, you can test your action by clicking on the "Test" button.
+
+9. As a result you should see the response from agileapps which contains the record-Id of the newly created record. You can also check in agileapps if the record was created successful.
+
 
