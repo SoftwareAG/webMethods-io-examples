@@ -1,0 +1,17 @@
+{
+  "name": "wmio-connector-hafas",
+  "description": "Access to HAFAS journey planner systems via HAFAS API, example for regional carrier 'Rhein-Main-Verkersverbund (RMV)'",
+  "triggers": [],
+  "actions": [
+    "/v1/getlocationname",
+    "/v1/getlocationnearbystops",
+    "/v1/getstationboard"
+  ],
+  "version": 1,
+  "auth_type": "apikey",
+  "docs_link": "http://docs.example.com",
+  "lookup": true,
+  "appId": "ecad0169-2e67-4999-91b7-558da6644dd3",
+  "guid": "66575294-eafa-4800-8d7a-ff57cc196732",
+  "connectionUid": "hafas_1576764747866"
+}
