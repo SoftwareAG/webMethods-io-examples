@@ -125,6 +125,7 @@ The following small example can be used to also demonstrate Webhooks triggered b
 
 A custom connector to integrate a Security camera (from Netatmo) has been used to demonstrate custom connector development for home automation purposes. 
 A possible application to control home lighting based on events (e.g. motion or person detection) would be a possible application. 
+Other possible applications would be triggering of alarms or notifications based on motion events. 
 
 
 
