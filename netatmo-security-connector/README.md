@@ -112,13 +112,13 @@ The first time you use the custom connector (called NetatmoSecurity) you will ne
 
 After that, you can use the connector as usual to retrieve data from the security camera: 
 
-![P8](./image/Image008.png)
+![P8](./images/Image008.png)
 
 ### A small example worflow to demonstrate home automation. 
 
 The following small example can be used to also demonstrate Webhooks triggered by the Security camera and subsequent control of lighting elements, for example to automate lighting based on the person detected. 
 
-![P9](./image/Image009.png)
+![P9](./images/Image009.png)
 
 
 ## Summary
