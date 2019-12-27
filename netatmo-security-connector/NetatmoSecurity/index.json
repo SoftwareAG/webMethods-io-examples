@@ -4,6 +4,7 @@
   "triggers": [],
   "actions": [],
   "version": 1,
-  "auth_type": "basic",
-  "docs_link": "http://docs.example.com"
+  "auth_type": "oauth",
+  "docs_link": "http://docs.example.com",
+  "oauth_provider": "netatmo_camera_4a4b969c20"
 }

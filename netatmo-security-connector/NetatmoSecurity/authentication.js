@@ -1,29 +1,13 @@
-var request = require('request');
-
 module.exports = {
-  label : 'Connect to Basic',
-  mock_input: { },
-  validate : function (input, output){
-    // auth data will be availablein input.auth
-    var username = input.auth.username
-    var password = input.auth.password
-    request({
-      url: 'http://httpbin.org/basic-auth/user/passwd',
-      auth: {
-        user: username,
-        pass: password,
-        sendImmediately: false
-      }
-    },
-    function(err, res, body){
-      if(err){
-        output(err, null)
-      }
-      if(res.statusCode == 401){
-        output('Unauthorized')
-      } else {
-        output(null, 'Logged in successfull');
-      }
-    })
+  label: "Connect to NetatmoSecurity",
+  mock_input: {
+    access_token: ""
+  },
+  oauth: "netatmo_camera_4a4b969c20",
+  validate: function (input, output) {
+    // auth credentials will be available in input.auth.access_token
+    // callback pattern
+    // output(error, success)
+    output(null, true)
   }
 }

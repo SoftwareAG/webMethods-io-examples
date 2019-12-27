@@ -1,0 +1,51 @@
+{
+	"type": "oauth2",
+	"title": "netatmo_camera",
+	"clientId": "5e05ebd41073ae7c852957ca",
+	"clientSecret": "nBZbMp5EOajlLRrZMsot9vY4pTgVKEhSdnzg0",
+	"authURL": 	"https://api.netatmo.com/oauth2/authorize",
+	"tokenURL": "https://api.netatmo.com/oauth2/token",
+	  "preAuthProcessing": {    
+	},
+	"authQueryParams": {
+		"state": "ab82aff8dd2caf097e6",
+		"scope": "read_camera"
+	},
+
+  "preTokenProcessing": {    
+  },
+  
+  "tokenParams": {
+    "method": "",
+    "headers": {},
+    "data": {
+      "client_id": "{client_id}",
+      "client_secret": "{client_secret}",
+      "redirect_uri": "{redirect_uri}",
+      "grant_type": "authorization_code"
+    }
+  },
+  "preRefreshProcessing": {
+  },
+  "refreshParams": {
+    "client_id": "{client_id}",
+    "client_secret": "{client_secret}",
+    "redirect_uri": "{redirect_uri}",
+    "grant_type": "refresh_token"
+  },
+  "requiredParams": [
+  ],
+  "refreshURL": "{tokenURL}",   
+  "scope": {    
+    "Read Camera Scope": "read_camera"
+  },
+  "validate": {
+    "url": "ANY API URL TO VALIDATE TOKEN OF THIRD PARTY SERVICE",
+    "headers": {
+      "Authorization": "Bearer {access_token}"
+    },
+    "query": { 
+    }
+  },
+  "redirectURL": "https://auth-int.webmethods.io/auth/oauth/netatmo_camera_4a4b969c20/fl91ccd279ad5dcd19d902bc/return"
+}
