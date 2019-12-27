@@ -4,7 +4,8 @@
   "triggers": [],
   "actions": [
     "/v1/gethomedata",
-    "/v1/gethomestatus"
+    "/v1/gethomestatus",
+    "/v1/getnextevents"
   ],
   "version": 1,
   "auth_type": "oauth",
