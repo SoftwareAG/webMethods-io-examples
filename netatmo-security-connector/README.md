@@ -91,8 +91,46 @@ Finish by deploying the custom connector to your webMethods.io instance.
 
 **_wmio deploy_**
 
+![P6](./images/Image006.png)
 
-![P6](./images/Image006)
+### Finish the Netatmo app configuration
+
+As a last step, we need to configure the callback URL in the netatmo app for the oauth credential process. 
+For this, you need to copy the URL at the end of the oauth.json file ("redirectURL") into the appropriate Netatmo app field ("redirect URI") that we had left blank before. 
+Don't forget to save the modified Netatmo app. 
+
+
+## Configure the home automation workflow
+
+### Netatmo custom connector steps
+
+You can now use the custom connector to view security camera information, for example by invoking the Gethomedata function to retrieve camera and other IDs: 
+
+The first time you use the custom connector (called NetatmoSecurity) you will need to configure the credentials as usual by logging into the Netatmo callback link and providing the credentials: 
+
+![P7](./images/Image007.png)
+
+After that, you can use the connector as usual to retrieve data from the security camera: 
+
+![P8](./image/Image008.png)
+
+### A small example worflow to demonstrate home automation. 
+
+The following small example can be used to also demonstrate Webhooks triggered by the Security camera and subsequent control of lighting elements, for example to automate lighting based on the person detected. 
+
+![P9](./image/Image009.png)
+
+
+## Summary
+
+A custom connector to integrate a Security camera (from Netatmo) has been used to demonstrate custom connector development for home automation purposes. 
+A possible application to control home lighting based on events (e.g. motion or person detection) would be a possible application. 
+
+
+
+
+
+
 
 
 
