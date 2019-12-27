@@ -1,8 +1,8 @@
 {
 	"type": "oauth2",
 	"title": "netatmo_camera",
-	"clientId": "5e05ebd41073ae7c852957ca",
-	"clientSecret": "nBZbMp5EOajlLRrZMsot9vY4pTgVKEhSdnzg0",
+	"clientId": "<clientID>",
+	"clientSecret": "<secret>",
 	"authURL": 	"https://api.netatmo.com/oauth2/authorize",
 	"tokenURL": "https://api.netatmo.com/oauth2/token",
 	  "preAuthProcessing": {    
