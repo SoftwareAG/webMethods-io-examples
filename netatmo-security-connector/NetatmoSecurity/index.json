@@ -1,0 +1,9 @@
+{
+  "name": "NetatmoSecurity",
+  "description": "Netatmo Security Camera connector",
+  "triggers": [],
+  "actions": [],
+  "version": 1,
+  "auth_type": "basic",
+  "docs_link": "http://docs.example.com"
+}
