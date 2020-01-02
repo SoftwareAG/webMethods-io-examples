@@ -1,0 +1,5 @@
+{
+  "protocol": "https",
+  "baseUrl": "www.rmv.de",
+  "path": "hapi"
+}
