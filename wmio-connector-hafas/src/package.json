@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Access to HAFAS journey planner systems",
   "dependencies": {
-    "request": "2.55.0",
+    "request": "2.68.0",
     "@webmethodsio/cli-sdk": "*"
   }
 }
