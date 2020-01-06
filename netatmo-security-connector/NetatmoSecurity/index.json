@@ -1,0 +1,17 @@
+{
+  "name": "NetatmoSecurity",
+  "description": "Netatmo Security Camera connector",
+  "triggers": [],
+  "actions": [
+    "/v1/gethomedata",
+    "/v1/gethomestatus",
+    "/v1/getnextevents"
+  ],
+  "version": 1,
+  "auth_type": "oauth",
+  "docs_link": "http://docs.example.com",
+  "oauth_provider": "netatmo_camera_4a4b969c20",
+  "oauthStatus": "deployed",
+  "appId": "44e90f51-9b6c-4651-a22a-bf756bf0adce",
+  "guid": "8be1585c-a8c5-4d57-9b1d-fc3780d6cc69"
+}
