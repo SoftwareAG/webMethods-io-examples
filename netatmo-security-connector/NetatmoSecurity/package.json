@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Netatmo Security Camera connector",
   "dependencies": {
-    "request": "2.55.0",
+    "request": "2.68.0",
     "@webmethodsio/cli-sdk": "*"
   }
 }
