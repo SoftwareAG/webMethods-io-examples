@@ -21,6 +21,10 @@ Collection of examples for beginner webMethods-io developers. It consists of com
 1. [Hafas Connector](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/wmio-connector-hafas)
 1. [Netamo Connector](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/netatmo-security-connector)
 
+## Custom
+
+1. [Echo Custom Connector](https://github.com/SoftwareAG/wmio-connector-basicexample) - This example shows the basic features of a webMethods.io custom connector to help you get started with your own one.
+
 ______________________
 For more information you can Ask a Question in the [TECHcommunity Forums](http://tech.forums.softwareag.com/techjforum/forums/list.page?product=integration-cloud).
 
