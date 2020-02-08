@@ -1,0 +1,21 @@
+{
+  "ToCountry": "US",
+  "ToState": "IL",
+  "SmsMessageSid": "",
+  "NumMedia": "0",
+  "ToCity": "",
+  "FromZip": "60061",
+  "SmsSid": "",
+  "FromState": "IL",
+  "SmsStatus": "received",
+  "FromCity": "MUNDELEIN",
+  "Body": "Menu",
+  "FromCountry": "US",
+  "To": "",
+  "ToZip": "",
+  "NumSegments": "1",
+  "MessageSid": "",
+  "AccountSid": "",
+  "From": "",
+  "ApiVersion": "2010-04-01"
+}
