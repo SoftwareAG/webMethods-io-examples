@@ -21,6 +21,7 @@ Collection of examples for beginner webMethods-io developers. It consists of com
 1. [Hafas Connector](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/wmio-connector-hafas)
 1. [Netamo Connector](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/netatmo-security-connector)
 1. [SMS my Tesla](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/sms-my-tesla)
+1. [Twitter-ServiceNow](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/Twitter_ServiceNow_Incidents)
 
 ## Custom
 
