@@ -1,5 +1,5 @@
-# webmethodsio-examples
-Collection of examples for beginner webMethods-io developers. It consists of common use cases and starting points for developers getting up to speed with webMethods.io. webMethods.io is an integration platform that enables a wide variety of integration tasks to be accomplishes quickly and easily with a graphical/api interface. In many cases, use of webMethods.io allows tasks to be accomplished much faster than traditional efforts involving software engineering, more information can be found [here](https://www.softwareag.cloud/site/product/webmethodsio-integration.html#/). Each example will contain instructions on how to recreate itself from a blank project. 
+# webMethods.io workflow examples
+Collection of examples for beginner webMethods.io developers. It consists of common use cases and starting points for developers getting up to speed with webMethods.io. webMethods.io is an integration platform that enables a wide variety of integration tasks to be accomplishes quickly and easily with a graphical/api interface. In many cases, use of webMethods.io allows tasks to be accomplished much faster than traditional efforts involving software engineering, more information can be found [here](https://www.softwareag.cloud/site/product/webmethodsio-integration.html#/). Each example will contain instructions on how to recreate itself from a blank project. 
 
 ## Introduction
 
@@ -24,6 +24,7 @@ Collection of examples for beginner webMethods-io developers. It consists of com
 1. [Twitter-ServiceNow](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/Twitter_ServiceNow_Incidents)
 1. [Nodejs-Blocks](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/nodejs-blocks)
 1. [HTTPrequest-Sendemail](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/httprequest-sendemail)
+1. [ChatGPT spam filter](https://github.com/SoftwareAG/webMethods-io-examples/tree/master/ChatGPT%20spam%20filter)
 
 ## Custom
 
