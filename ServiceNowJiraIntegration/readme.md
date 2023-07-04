@@ -7,9 +7,10 @@ This webMethods.io Integration recipe integrates Jira and ServiceNow application
 * *ServiceNow account*
 
 ## Setup
-1.	Download the recipe archive (**ServiceNowJiraIntegration.zip**).
+1.	Download the recipe archive ([**ServiceNowJiraIntegration.zip**](https://github.com/SoftwareAG/webMethods-io-examples/blob/master/ServiceNowJiraIntegration/ServiceNowJiraIntegration.zip)).
+![image](https://github.com/SoftwareAG/webMethods-io-examples/assets/23717841/565e59cc-2ff2-4584-a3fe-2309b634e234)
 2.	Go to the project where you want to import the workflow and click **Import**.
-![image](https://github.com/SoftwareAG/webMethods-io-examples/assets/23717841/84414e0e-2c3b-4409-81a0-6bb62e2a01ba)
+![image](https://github.com/SoftwareAG/webMethods-io-examples/assets/23717841/279330eb-0912-4d16-aee4-8c6467efdd08)
 3.	Find the archive on your computer and open it.
 4.	On the next screen, you need to connect your Jira and ServiceNow accounts with webMethods.io Integration and provide the needed information.
 ![image](https://github.com/SoftwareAG/webMethods-io-examples/assets/23717841/ac7442b3-fc92-4f5a-b178-f1d48f9ea151)
