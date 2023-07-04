@@ -22,4 +22,5 @@ This will import the workflow into the specified project.
 
 ![image](https://github.com/SoftwareAG/webMethods-io-examples/assets/23717841/2b48b170-fed9-487b-bc82-0d96c0fa8c82)
 ![image](https://github.com/SoftwareAG/webMethods-io-examples/assets/23717841/93c5a8af-fa5c-43bf-bb15-037d1532409b)
+
 5.	You can now proceed with testing the workflow – simply add a new incident in your ServiceNow incident table, watch the workflow execution and create an issue in your Jira project.
