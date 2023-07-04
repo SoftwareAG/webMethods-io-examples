@@ -25,6 +25,7 @@ Collection of examples for beginner webMethods.io developers. It consists of com
 1. [Nodejs-Blocks](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/nodejs-blocks)
 1. [HTTPrequest-Sendemail](https://github.com/SoftwareAG/webmethodsio-examples/tree/master/httprequest-sendemail)
 1. [ChatGPT spam filter](https://github.com/SoftwareAG/webMethods-io-examples/tree/master/ChatGPT%20spam%20filter)
+2. [ServiceNowJiraIntegration](https://github.com/SoftwareAG/webMethods-io-examples/tree/master/ServiceNowJiraIntegration)
 
 ## Custom
 
